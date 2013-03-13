@@ -1,0 +1,5 @@
+CREATED BY:
+anewguy merged avidownload and pv2fetch to create mediadownload
+enigma- original saturnchallenger framework, modified code to have .jpg output from pv2s (requires imagemagick to be installed)
+saturnnights created avidownload
+

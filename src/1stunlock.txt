@@ -1,0 +1,25 @@
+dave@dave-desktop:~/avidownload/src$ ./dwecombo
+INFO: Closing any opened devices...
+INFO: Open devices closed.
+INFO: Scanning USB bus 0 ...
+INFO: USB device with VID: 0x03f0, PID: 0x7604 on bus 0
+INFO: USB device with VID: 0x050d, PID: 0x705c on bus 0
+INFO: USB device with VID: 0x05e3, PID: 0x0608 on bus 0
+INFO: Scanning USB bus 1 ...
+INFO: USB device with VID: 0x0dca, PID: 0x0027 on bus 1
+INFO: Device found: SMaL BAD VID: 0x0DCA, PID: 0x0027
+INFO:  Device is a camera
+INFO: Device successfully opened.
+INFO: Loading .saturnkeys from home directory...
+INFO: Requesting challenge from camera
+INFO: Received challenge from camera
+ key to challengeigicam
+ key: Challenge matches digicam
+INFO: Sending response
+INFO: Succeeded at unlocking camera.
+INFO: Downloading media to /home/dave/saturn_vids/2007.11.04_01.30.28AM/
+INFO: Download from camera.....
+NOTE:  At camera_Download: folder: /home/dave/saturn_vids/2007.11.04_01.30.28AM/
+INFO: Closing any opened devices...
+INFO: Open devices closed.
+dave@dave-desktop:

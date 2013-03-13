@@ -1,0 +1,68 @@
+mediadownload v0.1
+---------------
+
+REQUIRES
+
+libusb, imagemagick
+
+DESCRIPTION
+
+avidownload is an application that takes recorded video from recent [2006.10.13]
+camcorders and recorded pictures from all m400 and m410 still cameras.  this application works with all currently known "saturn" camcorders.
+i have tested it with my 3.7 M200 and my 33.04 M230 with repeated success and for pv2s i have tested a few 410s and one 400.  of
+course, your mileage may vary.  this comes with no warranty whatsoever, but i hope
+it is as useful for you as it is for me
+
+this application is based off of saturnnights' "avidownload" which was based off of the original schallenger framework by enigma,
+which was originally based off of an unknown version of ops-for-linux. i have
+also integrated segments of source code from Ops-win32 version .20 and
+ops-for-linux version .14
+
+ops-for-linux is maintained by ygfperson [iirc], and Ops-win32 is maintained by billw.
+
+USAGE
+
+it's pretty simple.  place your keys in your home directory in a file named
+".saturnkeys", like "/home/user/.saturnkeys" and create a folder named
+"saturn_vids", like "/home/user/saturn_vids". also for pv2s the keys should also go in the .saturnkeys file and a folder "pv2_pics"  then run the program from any
+folder you wish, like "./mediadownload", for instance.  this application can be
+ran as a normal user.  if you want the camcorder formatted after the videos are
+downloaded, use the "-f" switch, like "./avidownload -f".
+
+"mediadownload" is for intel (x86) platforms, "mediadownload-ppc" is for powerpc platforms (but doesnt exist yet)
+
+INSTALLATION
+
+if you wish, you can copy the "mediadownload" executable into your "/usr/bin"
+folder [as root, of course] and you can run it from any location.
+
+COMPILING
+
+with libusb binaries and development files installed, from within the "src"
+directory:
+
+ gcc *.c -lusb -lm -llcms -ljpeg -o mediadownload
+
+it's a really short compile :-]
+
+
+CONTACT
+
+saturnnights:
+best way to reach me is via my AIM screenname "neo phreak freak", or 
+PM me on the "camerahacks" forum as "SaturnNiGHTS".  please make any
+suggestions or comments.
+
+enigma-:
+aim: NGenigma
+email: jeff<dot>crowell<at>gmail<dot>com
+camerahacking: PM me, username = "enigma-"
+
+anewguy:
+?
+?
+?
+
+TODO
+
+1.) create a TO-DO
